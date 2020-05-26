@@ -53,6 +53,37 @@
     border: 3px double black;
 }
 
+/*LOGOS PAGINAS WEB FLOTANTES */
+.RedesSocialesFlotantes{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 130px;
+}
+.RedesSocialesFlotantes i{
+font-size: 35px;
+padding: 5px;
+ width: 20px;
+ height: 20px;
+ text-align: center;
+}
+.RedesSocialesFlotantes i:hover{
+    width: 60px;
+    height: 15px;
+}
+.facebook{
+    color: rgb(59, 89, 152);
+}
+.pinterest{
+    color: rgb(203, 32, 39);
+}
+.twitter{
+    color: rgb(29, 161, 242);
+}
+.gmail{
+    color: rgb(132, 132, 132);
+}
+
 /*SECCION PORTADA*/
 
 .fondoPantalla{
@@ -90,7 +121,6 @@ nav:after{
     font-size: 16px;   
     text-decoration: none;
 }
-
 .btnGifts{
     padding: 12px 27px;
     font-weight: 250;
@@ -102,59 +132,29 @@ nav:after{
     border: 3px double black;
     transition: all 0.4s;
 }
+
 .textoPrincipalPortada{
-   padding-top: 50px;
-}
-.portada h1{
+display: grid;
+grid-template-columns: 1fr 1fr;
+padding-top: 50px;
+} 
+.textoPrincipalPortada h1{
     color: var(--amarillo);
     font-size: 35px;
     margin-bottom: 40px;
     font-family: Bitter;
 }
-.portada p{
+.textoPrincipalPortada p{
     color: white;
     font-size: 16px;
     font-family: Bitter;
     margin-bottom: 20px; 
     margin-top: 30px;
-}
-.portada{
-display: grid;
-grid-template-columns: 1fr 1fr;
-}    
+}   
 .imagenPortada{
     margin: 0 30px;
 }
-/*Logos Paginas Web Portada flotantes */
-.RedesSocialesFlotantes{
-    position: absolute;
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 130px;
-}
-.RedesSocialesFlotantes i{
-font-size: 35px;
-padding: 5px;
- width: 20px;
- height: 20px;
- text-align: center;
-}
-.RedesSocialesFlotantes i:hover{
-    width: 60px;
-    height: 15px;
-}
-.facebook{
-    color: rgb(59, 89, 152);
-}
-.pinterest{
-    color: rgb(203, 32, 39);
-}
-.twitter{
-    color: rgb(29, 161, 242);
-}
-.gmail{
-    color: rgb(132, 132, 132);
-}
+
 
 .logosPatrocinadoresPortada{
     display: grid;
@@ -186,6 +186,7 @@ padding: 5px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 25px; 
+    text-align: center;
 }
 .tipoBebida{
     overflow: hidden;
@@ -213,7 +214,7 @@ padding: 5px;
 }
 .tipoBebida button{
     text-align: center;
-    margin: 25px 60px ;
+   margin-top: 10px;
 }
 .SegundaSeccionBebidas{
     margin-top: 30px;
