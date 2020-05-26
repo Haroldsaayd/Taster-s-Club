@@ -1,0 +1,176 @@
+@font-face{
+    font-family: Bitter;
+    src: url(./media/fonts/Bitter-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*CCS GENERAL */
+
+:root{
+    --amarillo: #e0b045;
+}
+.fila{
+    margin: 0 auto;
+    max-width: 1100px;  
+}
+section {
+    padding: 65px 0;
+}
+
+
+.btn:hover{
+    color: rgb(134, 99, 10);
+    transition: all 0.4s;
+}
+
+.botonPortada{
+    padding: 20px 29px;
+    border: 3px double var(--amarillo) ;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--amarillo);
+    margin-left: 15px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.botonLleno{
+    color: black;
+    background-color: var(--amarillo);
+    border: 3px double black;
+}
+.botonLleno:hover{
+    color: var(--amarillo);
+    background: transparent;
+    border: 3px double var(--amarillo);
+}
+.botonVacio:hover{
+    color: black;
+    background-color: var(--amarillo);
+    border: 3px double black;
+}
+
+/*SECCION PORTADA*/
+
+.fondoPantalla{
+    background-image: url(./media/img/fondoPrincipal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   position: relative; 
+}
+.logoNavPortada{
+    height: 75px;
+    width: auto;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+nav:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.enlacesNavPortada{
+    list-style: none;
+    float: right;
+    margin-top: 45px;
+   margin-right: 55px;
+}
+.enlacesNavPortada li {
+  display: inline-block;
+  margin-left: 30px;
+}
+.enlacesNavPortada a {
+    text-transform: uppercase;
+    color: var(--amarillo) ;
+    font-size: 16px;   
+    text-decoration: none;
+}
+
+.btnGifts{
+    padding: 12px 27px;
+    font-weight: 250;
+    border: 3px double var(--amarillo) ;
+}
+.btnGifts:hover{
+    color: black;
+    background-color: var(--amarillo);
+    border: 3px double black;
+    transition: all 0.4s;
+}
+.textoPrincipalPortada{
+   padding-top: 50px;
+}
+.portada h1{
+    color: var(--amarillo);
+    font-size: 35px;
+    margin-bottom: 40px;
+    font-family: Bitter;
+}
+.portada p{
+    color: white;
+    font-size: 16px;
+    font-family: Bitter;
+    margin-bottom: 20px; 
+    margin-top: 30px;
+}
+.portada{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}    
+.imagenPortada{
+    margin: 0 30px;
+}
+/*Logos Paginas Web Portada */
+.logosPaginasWeb{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 70px;
+}
+.logosPaginasWeb i{
+font-size: 35px;
+padding: 5px;
+ width: 20px;
+ height: 20px;
+ text-align: center;
+}
+.logosPaginasWeb i:hover{
+    width: 60px;
+    height: 15px;
+}
+.facebook{
+    color: rgb(59, 89, 152);
+}
+.pinterest{
+    color: rgb(203, 32, 39);
+}
+.twitter{
+    color: rgb(29, 161, 242);
+}
+.gmail{
+    color: rgb(132, 132, 132);
+}
+
+.logosPatrocinadoresPortada{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    cursor: pointer;
+}
+
+/*SECCION BEBIDAS */
+
+.bebidas{
+    background-color: #101010;
+}
+.tituloBebidas{
+    font-size: 36px;
+    color: #a8a8a8;
+    letter-spacing: 0.5px;
+    line-height: 1.2em;
+    text-align: center;
+}
+
