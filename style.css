@@ -16,7 +16,7 @@
     margin: 0 auto;
     max-width: 1100px;  
 }
-section {
+.espacioEntreSecciones {
     padding: 65px 0;
 }
 
@@ -26,7 +26,7 @@ section {
     transition: all 0.4s;
 }
 
-.botonPortada{
+.boton{
     padding: 20px 29px;
     border: 3px double var(--amarillo) ;
     text-decoration: none;
@@ -59,7 +59,8 @@ section {
     background-image: url(./media/img/fondoPrincipal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-   position: relative; 
+    background-position: center;
+    position: relative; 
 }
 .logoNavPortada{
     height: 75px;
@@ -124,21 +125,21 @@ grid-template-columns: 1fr 1fr;
 .imagenPortada{
     margin: 0 30px;
 }
-/*Logos Paginas Web Portada */
-.logosPaginasWeb{
+/*Logos Paginas Web Portada flotantes */
+.RedesSocialesFlotantes{
     position: absolute;
     display: grid;
     grid-template-columns: 1fr;
-    margin-top: 70px;
+    margin-top: 130px;
 }
-.logosPaginasWeb i{
+.RedesSocialesFlotantes i{
 font-size: 35px;
 padding: 5px;
  width: 20px;
  height: 20px;
  text-align: center;
 }
-.logosPaginasWeb i:hover{
+.RedesSocialesFlotantes i:hover{
     width: 60px;
     height: 15px;
 }
@@ -163,14 +164,90 @@ padding: 5px;
 
 /*SECCION BEBIDAS */
 
-.bebidas{
+.contenedorBebidas{
     background-color: #101010;
 }
-.tituloBebidas{
+.contenedorBebidas h2{
     font-size: 36px;
     color: #a8a8a8;
     letter-spacing: 0.5px;
     line-height: 1.2em;
     text-align: center;
 }
+.contenedorBebidas p{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    font-family: Bitter;
+}
+.contenedorTiposBebida{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 25px; 
+}
+.tipoBebida{
+    overflow: hidden;
+    min-height: 400px;
+    border: 1px solid #232323;
+    background-color: #232323;
+}
+.tipoBebida img{
+    margin: 5px 10px;
+    width: 90%;
+    height: 90%;   
+}
+
+.tipoBebida h2 {
+    color: var(--amarillo);
+    font-size:25px ;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+.tipoBebida h3{
+    margin-top: 5px;
+    text-align: center;
+    color: #a8a8a8;
+}
+.tipoBebida button{
+    text-align: center;
+    margin: 25px 60px ;
+}
+.SegundaSeccionBebidas{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #232323;;
+}
+.SeccionImagenbebidas img{
+    margin: 30px 30px;
+    width: 75%;
+    height: 60%;
+}
+.SeccionTextoBebidas{
+    margin: 20px 30px;
+}
+.SeccionTextoBebidas h2{
+    color: var(--amarillo);
+    text-align: center;
+    font-size: 25px ;
+}
+.SeccionTextoBebidas p{
+    text-align: center;
+}
+.SeccionTextoBebidas h3{
+    margin-top: 10px;
+    text-align: center;
+    color: #a8a8a8;
+}
+.SeccionTextoBebidas button{
+    margin: 20px 180px ;
+    
+}
+
+
+
+
 
