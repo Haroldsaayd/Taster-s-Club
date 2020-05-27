@@ -220,7 +220,8 @@ padding-top: 50px;
     margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: #232323;;
+    background-color: #232323;
+
 }
 .SeccionImagenbebidas img{
     margin: 30px 30px;
@@ -229,6 +230,7 @@ padding-top: 50px;
 }
 .SeccionTextoBebidas{
     margin: 20px 30px;
+    text-align: center;
 }
 .SeccionTextoBebidas h2{
     color: var(--amarillo);
@@ -244,9 +246,66 @@ padding-top: 50px;
     color: #a8a8a8;
 }
 .SeccionTextoBebidas button{
-    margin: 20px 180px ;
-    
+    margin: 20px ;
 }
+
+/* SECCION COMO FUNCIONAMOS */
+
+.contenedorFuncionamiento{
+    background-color: #232323;
+}
+.contenedorFuncionamiento h2{
+    font-size: 36px;
+    color: #a8a8a8;
+    letter-spacing: 0.5px;
+    line-height: 1.2em;
+    text-align: center;
+}
+.contenedorFuncionamiento p{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    font-family: Bitter;
+}
+.seccionComoFuncionamos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 60px;
+    grid-gap: 25px;
+    text-align: center;
+}
+.comoFuncionamos i{
+    font-size: 60px;
+    color: var(--amarillo);
+    margin-top: 10px;
+}
+.comoFuncionamos h3{
+    color: var(--amarillo);
+    font-size:17px ;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.comoFuncionamos p{
+    color: white;
+    margin-top: 15px;
+    letter-spacing: 0.5px;
+}
+.comoFuncionamos b{
+    color: var(--amarillo);
+    cursor: pointer;
+}
+.botonesFuncionamiento{
+    text-align: center;
+    margin-top: 35px;  
+}
+.botonesFuncionamiento button{
+    padding: 15px 18px;
+    height: 90px;
+    width: 170px;
+    font-size: 17px;
+}
+
 
 
 
