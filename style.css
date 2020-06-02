@@ -375,6 +375,74 @@ padding-top: 50px;
 .logohuffington{
 width: 350px;
 }
+/* SECCION PREGUNTAS  */
+.contenedorPreguntas{
+    background-color:#101010;
+}
+.contenedorPreguntas h2{
+    font-size: 36px;
+    color: var(--amarillo);
+    letter-spacing: 0.5px;
+    line-height: 1.2em;
+    text-align: center;
+}
+.contenedorPreguntas p{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 19px;
+    font-family: Bitter;
+}
+.cuadrosPreguntas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+    grid-gap: 40px;
+}
+.preguntas{
+    background-color: #232323;
+   
+}
+.preguntaPersonal{
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+.preguntas h3{
+    color: white;
+    margin-top: 25px;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.signo{
+    border: 1px solid rgb(196, 140, 38);
+    background-color: rgb(196, 140, 38);
+    color: #232323;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+.preguntas p{
+    margin: 25px 20px;
+    font-size: 16px;
+    text-align: left;
+    color: #a8a8a8;
+}
+.preguntas b{
+    cursor: pointer;
+    color: var(--amarillo);
+}
+.respuesta{
+    display: none;
+}
+
 
 
 
