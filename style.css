@@ -17,7 +17,7 @@
     max-width: 1100px;  
 }
 .espacioEntreSecciones {
-    padding: 65px 0;
+    padding: 60px 0;
 }
 
 
@@ -452,6 +452,7 @@ width: 350px;
 
 .contenedorClubes{
     background-color: #232323;
+    
 }
 .instruccionesClubes{
     text-align: center;
@@ -463,7 +464,7 @@ width: 350px;
     line-height: 1.2em;
 }
 .instruccionesClubes p {
-    margin: 20px 300px;
+    margin: 20px 200px;
     color: white;
     line-height: 30px;
     font-size: 18px;
@@ -495,10 +496,13 @@ width: 350px;
 /* SECCION DAR UN REGALO */
 
 .contenedorRegalo{
-    background-color: #101010;
+    background-image: url(./media/img/backgroundregalo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative; 
+    background-size: cover;
 }
 .regalo{
-    
     text-align: center;
 }
 .regalo h2{
@@ -520,7 +524,7 @@ width: 350px;
     width: 170px;
     font-size: 15px;
     text-transform: uppercase;
-    margin-top: 10px;
+   
     text-align: center;
 }
 /* SECCION FOOTER */
@@ -539,12 +543,18 @@ width: 350px;
     color: white;
     text-align: left;   
     margin-left: 30px;
+  
 }
 .redesSociales i{
-    color: white;
+    color: var(--amarillo);
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 25px;
+    padding: 5px;
+    width: 10px;
 }
 .clubsFooter h3{
- color: var(--amarillo);
+color: var(--amarillo);
 font-size: 22px;
 margin-top: 40px;
 margin-bottom: 30px;
@@ -556,6 +566,7 @@ margin-bottom: 30px;
     font-size: 18px;
     cursor: pointer;
     margin-top: 5px;
+   
 }
 .clubsFooter p:hover{
     color: #a8a8a8;
@@ -576,6 +587,30 @@ margin-left: 30px;
     cursor: pointer;
     margin-top: 5px;
 }
+.recursosFooter p:hover{
+     color: #a8a8a8;
+    transition: all 0.5s;
+}
+blockquote{
+    color: white;
+    margin-top: 30px;
+}
+blockquote p{
+    display: inline-block;
+    margin-left: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 13px;
+}
+blockquote p:hover{
+    color: #a8a8a8;
+    transition: all 0.5s;
+}
+blockquote cite{
+    font-size: 13px;
+    margin-left: 20px;
+}
+
 
 
 
