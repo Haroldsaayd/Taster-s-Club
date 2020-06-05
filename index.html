@@ -212,29 +212,29 @@
         <h2>Los Críticos también lo hacen</h2>
 <div class="CriticoPersonal">
     <div class="critico">
-        <img src="./media/img/Logo-BuzzFeed.png" alt="logo buzzfeed" >
+       <a href="https://www.buzzfeed.com/francinehendrickson/food-and-booze-subscription-boxes-that-make-awesome-gifts11"> <img src="./media/img/Logo-BuzzFeed.png" alt="logo buzzfeed" > </a>
         <p>“Ya sea que seas un tequila curioso o un verdadero conocedor, Taster's Club tiene tequila que te dejará boquiabierto. Además, te dan toneladas de información genial sobre los productos, por lo que sabrás exactamente por qué ese tequila es tan bueno ”.</p>
     </div>
     <div class="critico">
-        <img src="./media/img/Logo-TodayShow.png" alt="logo Today" >
+       <a href="https://www.today.com/parents/dad-worthy-food-gifts-you-can-still-order-time-fathers-2D79749034"> <img src="./media/img/Logo-TodayShow.png" alt="logo Today" > </a>
         <p>“Dele al aficionado a las bebidas un regalo del Taster's Club, que envía una serie de bourbons o scotches de alta calidad junto con información de fondo; la idea es darle a papá una educación mixológica junto con su bebida ".</p>
     </div>
     <div class="critico">
-        <img src="./media/img/Logo-Esquire.png" alt="logo esquire" >
+      <a href="https://www.esquire.com/food-drink/drinks/g27504607/best-alcohol-subscription-boxes/"> <img src="./media/img/Logo-Esquire.png" alt="logo esquire" > </a>
         <p>“Ofrece 12 opciones de clubes diferentes, cada una especializada en una bebida diferente, y cada una con información de fondo como historia de la destilería y notas de degustación con cada botella. Aprenderás mucho sobre las cosas que te encanta beber ".</p>
     </div>
     <div class="critico">
-        <img src="./media/img/Logo-Forbes.png" alt="logo forbes">
+       <a href="https://www.forbes.com/sites/julianmitchell/2018/03/09/this-ceo-launched-the-first-spirits-based-subscription-service-for-liquor-lovers/#6b3199f67cf6"> <img src="./media/img/Logo-Forbes.png" alt="logo forbes"> </a>
         <p>
             "Taster’s Club se funda como el primer servicio de suscripción basado en bebidas de gama alta, creando con éxito una nueva categoría a pedido".</p>
     </div>
     <div class="critico">
-        <img class="logohuffington" src="./media/img/Logo-TheHuffington.png" alt="logo TheHuffington">
+       <a href="huffpost.com/entry/gift-experiences_n_6220384?fbclid=IwAR03iYRs1rX9dslOCl1-vyVWZ6mfffc4_F5VrHALk_nStZeHlI-CES3aQNo"> <img class="logohuffington" src="./media/img/Logo-TheHuffington.png" alt="logo TheHuffington"> </a>
         <p>
 "Regale una membresía al Taster’s Club y obtenga una botella de whisky todos los meses (incluidos Scotch y Bourbon), y aprenda todo al respecto".</p>
     </div>
     <div class="critico">
-        <img src="./media/img/Logo-MensJournal.png" alt="logo mensjournal">
+      <a href="https://www.mensjournal.com/gear/best-subscription-boxes-everyone-your-list-holiday-2017/10-for-perfectly-groomed-guy-birchbox-man/">  <img src="./media/img/Logo-MensJournal.png" alt="logo mensjournal"> </a>
         <p>"El Club Taster ayuda a transformar a los compradores y socios  en conocedores sofisticados de bebidas alcohólicas".</p>
     </div>
 </div>
@@ -247,60 +247,153 @@
 <h2>¿Todavía en la cerca?</h2>
 <p>Aquí estan las respuestas mas comunes para miembros.</p>
 <div class="cuadrosPreguntas">
-    <div class="preguntas">
-<div class="preguntaPersonal" id="pregunta" onclick="respuesta()">
+    <div class="preguntas preguntas1">
+<div class="preguntaPersonal">
         <h3>¿A dónde puedes enviar?</h3>
-        <button class="signo" type="button">+</button>
+        <button class="signo" type="button"   onclick="pregunta('1')">+</button>
     </div>
-    <div class="respuesta" id="respuesta" >
+    <div class="respuesta" id="respuesta1" >
     <p>Podemos enviar a la mayoría de los Estados Unidos continentales. Actualmente no podemos realizar envíos a Alabama, Alaska, Arkansas, Hawái, Kentucky, Mississippi, Dakota del Norte, Oklahoma y Utah.</p>
     <p>No realizamos envíos internacionales ni a Canadá en este momento. Pero, <b> envíenos un correo electrónico </b> con su información de contacto y le informaremos cuando ampliemos nuestras opciones de envío.</p>
     </div>
 </div>
-    <div class="preguntas">
+    <div class="preguntas preguntas2">
         <div class="preguntaPersonal"  >
-                <h3>¿Se notificara al destinatario de mi regalo y arruinara mi sorpresa?</h3>
-                <button class="signo" type="button">+</button>
+                <h3>¿Se notificara al destinatario de mi regalo ?</h3>
+                <button class="signo" type="button"  onclick="pregunta('2')">+</button>
             </div>
-            <div class="respuesta">
+            <div class="respuesta" id="respuesta2">
             <p>¡No, definitivamente no! No serán notificados hasta que salga su primer envío.</p>
             <p>Le enviaremos un certificado de bienvenida personalizado con el nombre del miembro que puede imprimir o reenviar.</p>
             <p>También puede invitar al destinatario del regalo a crear una cuenta y enviar una nota personalizada iniciando <b> sesión en su cuenta en línea </b> .</p>
             </div>
         </div>
-        <div class="preguntas" >
+        <div class="preguntas preguntas3" >
             <div class="preguntaPersonal"  >
                 <h3>¿Puedo cambiar de club si cambio de opinión?</h3>
-                <button class="signo" type="button">+</button>
+                <button class="signo" type="button"  onclick="pregunta('3')">+</button>
             </div>
-            <div class="respuesta">
+            <div class="respuesta" id="respuesta3">
             <p>Sí, puedes cambiar de club en cualquier momento. Simplemente <b> inicie sesión </b> en su Perfil de miembro y seleccione un nuevo club en la sección "Cambiar club".</p>
             </div>
         </div>
-        <div class="preguntas">
+        <div class="preguntas preguntas4">
             <div class="preguntaPersonal">
                 <h3>¿Cómo sabré cuándo esperar mi envío?</h3>
-                <button class="signo" type="button">+</button>
+                <button class="signo" type="button"  onclick="pregunta('4')">+</button>
             </div>
-            <div class="respuesta">
+            <div class="respuesta" id="respuesta4">
             <p>El destinatario recibirá un correo electrónico de seguimiento tan pronto como el paquete sea recogido de nuestro almacén entre el 5 y el 15 del mes.</p>
             </div>  
         </div>
         <div class="preguntas">
             <div class="preguntaPersonal">
                 <h3>¿Comó cancelo o renuevo mi membresía?</h3>
-                <button class="signo" type="button">+</button>
+                <button class="signo" type="button"  onclick="pregunta('5')">+</button>
             </div>
-            <div class="respuesta">
+            <div class="respuesta" id="respuesta5">
             <p>Puede cancelar por <b> correo electrónico en </b> cualquier momento. Cancele antes de fin de mes para asegurarse de no recibir el envío del próximo mes.</p>
             <p>Para renovar, inicie sesión en su Perfil de miembro y en la sección "Renovar" puede optar por extender su membresía por 3, 6 o 12 meses o poner su plan en piloto automático hasta que elija cancelar.</p>
             </div>      
         </div> 
-        
-
 
 </div>
 </div>
+</section>
+<!-- SECCION CLUBES -->
+<section class="espacioEntreSecciones contenedorClubes">
+    <div class="fila ">
+        <div class="instruccionesClubes">
+        <h2>¿Listo para unirse al club?</h2>
+        <p>¡Nos encantaría servirte! Haga clic en el botón de abajo para visitar nuestra página de Clubes y comenzar el proceso de registro. ¡Terminarás en poco tiempo!</p>
+        <button class="boton botonVacio" href="#">Regístrate Hoy</button>
+        <h3>Disfrutará de selecciones de:</h3>
+        <div class="clubes">
+            <div class="club1">
+                <a href="https://twojames.com/"><img src="./media/img/club1.png" alt="logo twojames"></a>
+            </div>
+            <div class="club2">
+                <a href=https://savageandcooke.com/ayate ><img src="./media/img/club2.png" alt="logo savageandcooke"></a>
+            </div>
+            <div class="club3">
+                <a href=https://cedarridgewhiskey.com><img src="./media/img/club3.png" alt="logo cedarridgewhiskey"></a>
+            </div>
+            <div class="club4">
+                <a href=https://www.albanydistilling.com><img src="./media/img/club4.png" alt="logo albanydistilling"></a>
+            </div>
+            <div class="club5">
+                <a href=https://www.donpaparum.com/confirmation ><img src="./media/img/club5.png" alt="logo donpaparum"></a>
+            </div>
+            <div class="club6">
+                <a href=https://uniongrovedistillery.com><img src="./media/img/club6.png" alt="logo uniongroved"></a>
+            </div>
+            <div class="club7">
+                <a href="https://caledoniaspirits.com/"><img src="./media/img/club7.png" alt="logo caledoniaspirits"></a>
+            </div>
+            <div class="club8">
+                <a href=https://www.deanstonmalt.com/ ><img src="./media/img/club8.png" alt="logo deanstonmalt"></a>
+            </div>
+            <div class="club9">
+                <a href=https://deltequila.com/es/inicio/><img src="./media/img/club9.png" alt="logo deltequila"></a>
+            </div>
+            <div class="club10">
+                <a href=https://boulder-spirits.com/><img src="./media/img/club10.png" alt="logo boulderspirits"></a>
+            </div>
+            <div class="club11">
+                <a href=http://www.denningspointdistillery.com/ ><img src="./media/img/club11.png" alt="logo denningspointdistillery"></a>
+            </div>
+            <div class="club12">
+                <a href=https://www.florasprings.com/><img src="./media/img/club12.png" alt="logo florasprings"></a>
+            </div>
+
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- SECCION DAR REGALO -->
+<section class="espacioEntreSecciones contenedorRegalo">
+    <div class="fila">
+        <div class="regalo">
+            <h2>Dar un regalo animado</h2>
+            <p>Una membresía del club es el regalo perfecto para el amante del vino o el espíritu en su vida. Puede seleccionar su club para ellos o comprar una tarjeta de regalo y dejar que elijan la suya. Nosotros nos encargamos del resto!</p>
+            <button  class="boton botonLleno" href="#">Dar Un Regalo</button>
+        </div>
+    </div>
+</section>
+<!-- SECCION FOOTER -->
+<section class="espacioEntreSecciones contenedorFinal">
+    <div class="fila">
+        <div class="finPagina">
+            <div class="redesSociales">
+                <img class="logoFooter" src="./media/img/logo taster.png" alt="logo">
+                <p>UNA EXPERIENCIA DE SUSCRIPCIÓN</p>
+                <p>CURADA PARA VINOS Y VINCULANTES</p>
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.pinterest.com.mx/"><i class="fab fa-pinterest-square"></i></a>
+                <a href="https://twitter.com/explore"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div class="clubsFooter">
+            <h3>Clubs</h3>
+            <p>whisky</p>
+            <p>bourbon</p>
+            <p>scotch</p>
+            <p>tequila</p>
+            <p>stock the bar</p>
+            </div>
+            <div class="recursosFooter">
+                    <h3>Recursos</h3>
+                    <p>blog</p>
+                    <p>sobre soporte</p>
+                    <p>para iniciar sesión</p>
+            </div>
+    
+        </div>
+
+
+
+    </div>
 </section>
 
 
